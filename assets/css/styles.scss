@@ -1,5 +1,5 @@
 $break-small: 300px;
-$break-large: 1024px;
+$break-large: 1400px;
 
 @mixin respond-to($media) {
   @if $media == handhelds {
@@ -103,7 +103,7 @@ height: 50vh;
   width: 100vw;
   display: inline-block;
   img{
-    width: 15.5%;
+    width: 13.5%;
     margin: 0 0 0 3%;
     @include respond-to(medium-screens) {
         width: 23%;
@@ -221,7 +221,7 @@ height: 50vh;
     height: 50vh;
     // border: solid thin black;
     .appt-img{
-      width: 31%;
+      width: 27%;
       margin: .5% 0 0 15vw;
       border: solid thin lightgrey;
       @include respond-to(medium-screens) {
@@ -230,7 +230,7 @@ height: 50vh;
       }
     }
     .appt-container{
-      width: 50vw;
+      width: 49vw;
       height: 50vh;
       position: absolute;
       top: 0;
@@ -299,7 +299,7 @@ height: 50vh;
   }
 }
   .mem-body{
-    width: 49.5vw;
+    width: 49vw;
     height: 50vh;
     display: inline-block;
     // border: solid thin black;
@@ -310,7 +310,7 @@ height: 50vh;
     width: 50vw;
     height: 50vh;
     .mem-img{
-      width: 78.5%;
+      width: 68.5%;
       margin: .5% 0 0 6vw;
       @include respond-to(medium-screens) {
         width: 95%;

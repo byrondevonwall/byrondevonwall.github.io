@@ -17,7 +17,7 @@ header {
     padding: 8% 0 0 0;
     display: block;
     color: white; }
-    @media only screen and (min-width: 301px) and (max-width: 1023px) {
+    @media only screen and (min-width: 301px) and (max-width: 1399px) {
       header .my-name {
         padding: 25% 0 0 0; } }
   header .my-title {
@@ -43,10 +43,10 @@ header {
     header .about a {
       text-decoration: none;
       color: #e6e6e6; }
-    @media only screen and (min-width: 301px) and (max-width: 1023px) {
+    @media only screen and (min-width: 301px) and (max-width: 1399px) {
       header .about {
         padding: 28% 0 0 0; } }
-    @media only screen and (min-width: 301px) and (max-width: 1023px) {
+    @media only screen and (min-width: 301px) and (max-width: 1399px) {
       header .about .break-me {
         display: block; } }
   header .bottom-nav {
@@ -64,7 +64,7 @@ header {
       header .bottom-nav .header-links a {
         text-decoration: none;
         color: black; }
-    @media only screen and (min-width: 301px) and (max-width: 1023px) {
+    @media only screen and (min-width: 301px) and (max-width: 1399px) {
       header .bottom-nav {
         padding: 15% 0 0 0;
         font-size: 3em;
@@ -77,13 +77,13 @@ header {
     width: 100vw;
     display: inline-block; }
     .showcase-body .showcase-container img {
-      width: 15.5%;
+      width: 13.5%;
       margin: 0 0 0 3%; }
-      @media only screen and (min-width: 301px) and (max-width: 1023px) {
+      @media only screen and (min-width: 301px) and (max-width: 1399px) {
         .showcase-body .showcase-container img {
           width: 23%;
           margin: 12% 0 0 1.3%; } }
-    @media only screen and (min-width: 301px) and (max-width: 1023px) {
+    @media only screen and (min-width: 301px) and (max-width: 1399px) {
       .showcase-body .showcase-container .landing {
         display: none; } }
   .showcase-body .portfolio-showcase {
@@ -103,7 +103,7 @@ header {
         width: 70%;
         display: block;
         margin: 0 0 0 15%; }
-        @media only screen and (min-width: 301px) and (max-width: 1023px) {
+        @media only screen and (min-width: 301px) and (max-width: 1399px) {
           .showcase-body .portfolio-showcase .showcase-desc-container .fs-logo {
             width: 100%;
             margin: 10% 0 0 25%; } }
@@ -114,14 +114,14 @@ header {
         width: 100%;
         text-align: center;
         line-height: 1.2  em; }
-        @media only screen and (min-width: 301px) and (max-width: 1023px) {
+        @media only screen and (min-width: 301px) and (max-width: 1399px) {
           .showcase-body .portfolio-showcase .showcase-desc-container .portfolio-title {
             padding: 20%; } }
     .showcase-body .portfolio-showcase .showcase-desc {
       display: inline-block;
       width: 79vw;
       font-size: 1.5em; }
-      @media only screen and (min-width: 301px) and (max-width: 1023px) {
+      @media only screen and (min-width: 301px) and (max-width: 1399px) {
         .showcase-body .portfolio-showcase .showcase-desc {
           width: 65vw;
           float: right;
@@ -141,7 +141,7 @@ header {
         width: 49%;
         font-weight: bold;
         display: inline-block; }
-        @media only screen and (min-width: 301px) and (max-width: 1023px) {
+        @media only screen and (min-width: 301px) and (max-width: 1399px) {
           .showcase-body .portfolio-showcase .showcase-links .showcase-link {
             font-size: 1.7em; } }
         .showcase-body .portfolio-showcase .showcase-links .showcase-link span {
@@ -149,13 +149,13 @@ header {
         .showcase-body .portfolio-showcase .showcase-links .showcase-link .fa-mobile {
           font-size: 2.8em;
           display: block; }
-          @media only screen and (min-width: 301px) and (max-width: 1023px) {
+          @media only screen and (min-width: 301px) and (max-width: 1399px) {
             .showcase-body .portfolio-showcase .showcase-links .showcase-link .fa-mobile {
               font-size: 2.5em; } }
         .showcase-body .portfolio-showcase .showcase-links .showcase-link .fa-github {
           font-size: 2.8em;
           display: block; }
-          @media only screen and (min-width: 301px) and (max-width: 1023px) {
+          @media only screen and (min-width: 301px) and (max-width: 1399px) {
             .showcase-body .portfolio-showcase .showcase-links .showcase-link .fa-github {
               font-size: 2.5em; } }
 
@@ -170,15 +170,15 @@ header {
     width: 50vw;
     height: 50vh; }
     .appt-body .appointments .appt-img {
-      width: 31%;
+      width: 27%;
       margin: .5% 0 0 15vw;
       border: solid thin lightgrey; }
-      @media only screen and (min-width: 301px) and (max-width: 1023px) {
+      @media only screen and (min-width: 301px) and (max-width: 1399px) {
         .appt-body .appointments .appt-img {
           width: 75%;
           margin: 0 0 0 6.5vw; } }
     .appt-body .appointments .appt-container {
-      width: 50vw;
+      width: 49vw;
       height: 50vh;
       position: absolute;
       top: 0;
@@ -194,12 +194,12 @@ header {
         text-align: center;
         line-height: 1.2em;
         margin: 2% 0 5% 0; }
-        @media only screen and (min-width: 301px) and (max-width: 1023px) {
+        @media only screen and (min-width: 301px) and (max-width: 1399px) {
           .appt-body .appointments .appt-container .portfolio-title {
             margin: 5% 0  15% 0; } }
       .appt-body .appointments .appt-container .portfolio-desc {
         margin: 0 2%; }
-        @media only screen and (min-width: 301px) and (max-width: 1023px) {
+        @media only screen and (min-width: 301px) and (max-width: 1399px) {
           .appt-body .appointments .appt-container .portfolio-desc {
             font-size: 1.8em; } }
       .appt-body .appointments .appt-container .portfolio-links {
@@ -217,7 +217,7 @@ header {
           width: 49%;
           font-weight: bold;
           display: inline-block; }
-          @media only screen and (min-width: 301px) and (max-width: 1023px) {
+          @media only screen and (min-width: 301px) and (max-width: 1399px) {
             .appt-body .appointments .appt-container .portfolio-links .portfolio-link {
               font-size: 2em; } }
           .appt-body .appointments .appt-container .portfolio-links .portfolio-link span {
@@ -225,18 +225,18 @@ header {
           .appt-body .appointments .appt-container .portfolio-links .portfolio-link .fa-mobile {
             font-size: 2.8em;
             display: block; }
-            @media only screen and (min-width: 301px) and (max-width: 1023px) {
+            @media only screen and (min-width: 301px) and (max-width: 1399px) {
               .appt-body .appointments .appt-container .portfolio-links .portfolio-link .fa-mobile {
                 font-size: 2.5em; } }
           .appt-body .appointments .appt-container .portfolio-links .portfolio-link .fa-github {
             font-size: 2.8em;
             display: block; }
-            @media only screen and (min-width: 301px) and (max-width: 1023px) {
+            @media only screen and (min-width: 301px) and (max-width: 1399px) {
               .appt-body .appointments .appt-container .portfolio-links .portfolio-link .fa-github {
                 font-size: 2.5em; } }
 
 .mem-body {
-  width: 49.5vw;
+  width: 49vw;
   height: 50vh;
   display: inline-block; }
   .mem-body .memory {
@@ -246,9 +246,9 @@ header {
     width: 50vw;
     height: 50vh; }
     .mem-body .memory .mem-img {
-      width: 78.5%;
+      width: 68.5%;
       margin: .5% 0 0 6vw; }
-      @media only screen and (min-width: 301px) and (max-width: 1023px) {
+      @media only screen and (min-width: 301px) and (max-width: 1399px) {
         .mem-body .memory .mem-img {
           width: 95%;
           margin: 30% 0 0 1.5vw; } }
@@ -269,10 +269,10 @@ header {
         text-align: center;
         line-height: 1.2em;
         margin: 2% 0 5% 0; }
-        @media only screen and (min-width: 301px) and (max-width: 1023px) {
+        @media only screen and (min-width: 301px) and (max-width: 1399px) {
           .mem-body .memory .mem-container .portfolio-title {
             margin: 5% 0  15% 0; } }
-      @media only screen and (min-width: 301px) and (max-width: 1023px) {
+      @media only screen and (min-width: 301px) and (max-width: 1399px) {
         .mem-body .memory .mem-container .portfolio-desc {
           font-size: 1.8em; } }
       .mem-body .memory .mem-container .portfolio-links {
@@ -290,7 +290,7 @@ header {
           width: 49%;
           font-weight: bold;
           display: inline-block; }
-          @media only screen and (min-width: 301px) and (max-width: 1023px) {
+          @media only screen and (min-width: 301px) and (max-width: 1399px) {
             .mem-body .memory .mem-container .portfolio-links .portfolio-link {
               font-size: 2em; } }
           .mem-body .memory .mem-container .portfolio-links .portfolio-link span {
@@ -298,13 +298,13 @@ header {
           .mem-body .memory .mem-container .portfolio-links .portfolio-link .fa-desktop {
             font-size: 2.8em;
             display: block; }
-            @media only screen and (min-width: 301px) and (max-width: 1023px) {
+            @media only screen and (min-width: 301px) and (max-width: 1399px) {
               .mem-body .memory .mem-container .portfolio-links .portfolio-link .fa-desktop {
                 font-size: 2.5em; } }
           .mem-body .memory .mem-container .portfolio-links .portfolio-link .fa-github {
             font-size: 2.8em;
             display: block; }
-            @media only screen and (min-width: 301px) and (max-width: 1023px) {
+            @media only screen and (min-width: 301px) and (max-width: 1399px) {
               .mem-body .memory .mem-container .portfolio-links .portfolio-link .fa-github {
                 font-size: 2.5em; } }
 
@@ -320,7 +320,7 @@ header {
     width: 15%;
     border-radius: 10em;
     margin: 5% 0 0 42.5%; }
-    @media only screen and (min-width: 301px) and (max-width: 1023px) {
+    @media only screen and (min-width: 301px) and (max-width: 1399px) {
       .contact-about .contact-img .byron-img {
         width: 25%;
         height: 25%;
@@ -332,7 +332,7 @@ header {
     text-align: center;
     font-size: 3em;
     color: dodgerblue; }
-    @media only screen and (min-width: 301px) and (max-width: 1023px) {
+    @media only screen and (min-width: 301px) and (max-width: 1399px) {
       .contact-about .about-txt {
         font-size: 5em;
         margin: 1% 0 10% 0; } }
@@ -342,7 +342,7 @@ header {
     text-align: center;
     padding: 0 10%;
     font-size: 2em; }
-    @media only screen and (min-width: 301px) and (max-width: 1023px) {
+    @media only screen and (min-width: 301px) and (max-width: 1399px) {
       .contact-about .about-desc {
         padding: 0 2%;
         font-size: 3em; } }
@@ -350,7 +350,7 @@ header {
     margin: 15% 0 0 0;
     display: block;
     width: 100vw; }
-    @media only screen and (min-width: 301px) and (max-width: 1023px) {
+    @media only screen and (min-width: 301px) and (max-width: 1399px) {
       .contact-about .about-links {
         display: none; } }
     .contact-about .about-links .about-link {
@@ -362,7 +362,7 @@ header {
       font-size: 1.2em; }
   .contact-about .about-mobile-links {
     display: none; }
-    @media only screen and (min-width: 301px) and (max-width: 1023px) {
+    @media only screen and (min-width: 301px) and (max-width: 1399px) {
       .contact-about .about-mobile-links {
         margin: 25% 0 0 0;
         display: block;
