@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box; }
+
+header {
+  background: url("../img/sea.jpeg") fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw; }
+  header .my-name {
+    width: 100%;
+    text-align: center;
+    font-family: 'overpass', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 10em;
+    padding: 8% 0 0 0;
+    display: block;
+    color: white; }
+  header .my-title {
+    width: 100%;
+    text-align: center;
+    font-family: 'overpass', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 5em;
+    padding: 3% 0 0 0;
+    display: block;
+    color: #f2f2f2; }
+  header .about {
+    width: 100%;
+    text-align: center;
+    font-family: 'overpass', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 4em;
+    padding: 9% 0 0 0;
+    display: block;
+    color: #e6e6e6; }
+    header .about a {
+      text-decoration: none;
+      color: #e6e6e6; }
+  header .bottom-nav {
+    margin: 12% 0 0 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'overpass', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em; }
+    header .bottom-nav .header-links {
+      width: 32%;
+      display: inline-block;
+      text-align: center; }
+      header .bottom-nav .header-links a {
+        text-decoration: none;
+        color: black; }
+
+.showcase-body {
+  height: 50vh;
+  border-top: solid thin lightgrey; }
+  .showcase-body .showcase-container {
+    height: 50vh;
+    width: 100vw;
+    display: inline-block; }
+    .showcase-body .showcase-container img {
+      width: 15.5%;
+      margin: 0 0 0 3%; }
+  .showcase-body .portfolio-showcase {
+    height: 50vh;
+    width: 100vw;
+    display: block;
+    font-family: 'overpass', sans-serif;
+    background-color: rgba(50, 50, 50, 0.8);
+    position: absolute;
+    top: 150vh;
+    color: white;
+    display: none; }
+    .showcase-body .portfolio-showcase .showcase-desc-container {
+      width: 20vw;
+      display: inline-block; }
+      .showcase-body .portfolio-showcase .showcase-desc-container .fs-logo {
+        width: 70%;
+        display: block;
+        margin: 0 0 0 15%; }
+      .showcase-body .portfolio-showcase .showcase-desc-container .portfolio-title {
+        display: block;
+        font-size: 2.5em;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        line-height: 1.2  em; }
+    .showcase-body .portfolio-showcase .showcase-desc {
+      display: inline-block;
+      width: 79vw;
+      font-size: 1.5em; }
+    .showcase-body .portfolio-showcase .showcase-links {
+      position: absolute;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      height: 19%; }
+      .showcase-body .portfolio-showcase .showcase-links a {
+        font-weight: 300;
+        text-decoration: none;
+        color: white; }
+      .showcase-body .portfolio-showcase .showcase-links .showcase-link {
+        text-align: center;
+        width: 49%;
+        font-weight: bold;
+        display: inline-block; }
+        .showcase-body .portfolio-showcase .showcase-links .showcase-link span {
+          font-weight: 500; }
+        .showcase-body .portfolio-showcase .showcase-links .showcase-link .fa-mobile {
+          font-size: 2.8em;
+          display: block; }
+        .showcase-body .portfolio-showcase .showcase-links .showcase-link .fa-github {
+          font-size: 2.8em;
+          display: block; }
+
+.appt-body {
+  width: 50vw;
+  height: 50vh;
+  display: inline-block; }
+  .appt-body .appointments {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 50vw;
+    height: 50vh; }
+    .appt-body .appointments .appt-img {
+      width: 31%;
+      margin: 0 0 0 15vw;
+      border: solid thin lightgrey; }
+    .appt-body .appointments .appt-container {
+      width: 50vw;
+      height: 50vh;
+      position: absolute;
+      top: 0;
+      font-family: 'overpass', sans-serif;
+      color: white;
+      background-color: rgba(50, 50, 50, 0.8); }
+      .appt-body .appointments .appt-container .portfolio-title {
+        display: block;
+        font-size: 2.5em;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        line-height: 1.2em;
+        margin: 2% 0 5% 0; }
+      .appt-body .appointments .appt-container .portfolio-links {
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 19%; }
+        .appt-body .appointments .appt-container .portfolio-links a {
+          font-weight: 300;
+          text-decoration: none;
+          color: white; }
+        .appt-body .appointments .appt-container .portfolio-links .portfolio-link {
+          text-align: center;
+          width: 49%;
+          font-weight: bold;
+          display: inline-block; }
+          .appt-body .appointments .appt-container .portfolio-links .portfolio-link span {
+            font-weight: 500; }
+          .appt-body .appointments .appt-container .portfolio-links .portfolio-link .fa-mobile {
+            font-size: 2.8em;
+            display: block; }
+          .appt-body .appointments .appt-container .portfolio-links .portfolio-link .fa-github {
+            font-size: 2.8em;
+            display: block; }
+
+.mem-body {
+  width: 49.5vw;
+  height: 50vh;
+  display: inline-block; }
+  .mem-body .memory {
+    position: absolute;
+    top: 100vh;
+    right: 0;
+    width: 50vw;
+    height: 50vh; }
+    .mem-body .memory .mem-img {
+      width: 78.5%;
+      margin: 0 0 0 6vw; }
+    .mem-body .memory .mem-container {
+      width: 50vw;
+      height: 50vh;
+      position: absolute;
+      top: 0;
+      font-family: 'overpass', sans-serif;
+      color: white;
+      background-color: rgba(50, 50, 50, 0.8); }
+      .mem-body .memory .mem-container .portfolio-title {
+        display: block;
+        font-size: 2.5em;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        line-height: 1.2em;
+        margin: 2% 0 5% 0; }
+      .mem-body .memory .mem-container .portfolio-links {
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 19%; }
+        .mem-body .memory .mem-container .portfolio-links a {
+          font-weight: 300;
+          text-decoration: none;
+          color: white; }
+        .mem-body .memory .mem-container .portfolio-links .portfolio-link {
+          text-align: center;
+          width: 49%;
+          font-weight: bold;
+          display: inline-block; }
+          .mem-body .memory .mem-container .portfolio-links .portfolio-link span {
+            font-weight: 500; }
+          .mem-body .memory .mem-container .portfolio-links .portfolio-link .fa-desktop {
+            font-size: 2.8em;
+            display: block; }
+          .mem-body .memory .mem-container .portfolio-links .portfolio-link .fa-github {
+            font-size: 2.8em;
+            display: block; }
+
+.contact-about {
+  height: 100vh;
+  width: 100vw;
+  background: url("../img/grass-blue-background.jpg") fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'overpass', sans-serif; }
+  .contact-about .contact-img .byron-img {
+    height: 15%;
+    width: 15%;
+    border-radius: 10em;
+    margin: 5% 0 0 42.5%; }
+  .contact-about .about-txt {
+    display: block;
+    width: 100vw;
+    margin: 1% 0 3% 0;
+    text-align: center;
+    font-size: 3em;
+    color: dodgerblue; }
+  .contact-about .about-desc {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0 10%;
+    font-size: 2em; }
+  .contact-about .about-links {
+    margin: 15% 0 0 0;
+    display: block;
+    width: 100vw; }
+    .contact-about .about-links .about-link {
+      display: inline-block;
+      text-align: center;
+      width: 32vw; }
+
+/*# sourceMappingURL=styles.css.map */

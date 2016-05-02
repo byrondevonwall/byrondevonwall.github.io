@@ -1,0 +1,326 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+    background: url('../img/sea.jpeg') fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    .my-name{
+      width: 100%;
+      text-align: center;
+      font-family: 'overpass', sans-serif;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 10em;
+      padding: 8% 0 0 0;
+      display: block;
+      color: white;
+    }
+    .my-title{
+      width: 100%;
+      text-align: center;
+      font-family: 'overpass', sans-serif;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 5em;
+      padding: 3% 0 0 0;
+      display: block;
+      color: darken(white, 5%);
+    }
+    .about{
+      width: 100%;
+      text-align: center;
+      font-family: 'overpass', sans-serif;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 4em;
+      padding: 9% 0 0 0;
+      display: block;
+      color: darken(white, 10%);
+      a{
+        text-decoration: none;
+        color: darken(white, 10%);
+      }
+    }
+  .bottom-nav{
+    margin: 12% 0 0 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'overpass', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    .header-links{
+      width: 32%;
+      display: inline-block;
+      text-align: center;
+      a{
+        text-decoration: none;
+        color: black;
+      }
+    }
+
+  }
+}
+
+.showcase-body{
+height: 50vh;
+border-top: solid thin lightgrey;
+.showcase-container{
+  height: 50vh;
+  width: 100vw;
+  display: inline-block;
+  img{
+    width: 15.5%;
+    margin: 0 0 0 3%;
+  }
+}
+
+.portfolio-showcase{
+  height: 50vh;
+  width: 100vw;
+  display: block;
+  font-family: 'overpass', sans-serif;
+  background-color: rgba(50, 50, 50, 0.8);
+  position: absolute;
+  top: 150vh;
+  color: white;
+  display: none;
+  .showcase-desc-container{
+    width:20vw;
+    display: inline-block;
+
+    .fs-logo{
+      width: 70%;
+      display: block;
+      margin: 0 0 0 15%;
+    }
+    .portfolio-title{
+      display: block;
+      font-size: 2.5em;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      line-height: 1.2  em;
+    }
+  }
+    .showcase-desc{
+      display: inline-block;
+      width: 79vw;
+      font-size: 1.5em;
+    }
+
+  .showcase-links{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 19%;
+    // border: solid thin black;
+    a{
+      font-weight: 300;
+      text-decoration: none;
+      color: white;
+    }
+    .showcase-link{
+      text-align: center;
+      width: 49%;
+      font-weight: bold;
+      display: inline-block;
+      span{
+        font-weight: 500;
+      }
+      .fa-mobile{
+        font-size: 2.8em;
+        display: block;
+      }
+      .fa-github{
+        font-size: 2.8em;
+        display: block;
+      }
+    }
+  }
+}
+}
+
+.appt-body{
+  width: 50vw;
+  height: 50vh;
+  display: inline-block;
+  // border-right: solid thin lightgrey;
+
+  .appointments{
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 50vw;
+    height: 50vh;
+    // border: solid thin black;
+    .appt-img{
+      width: 31%;
+      margin: 0 0 0 15vw;
+      border: solid thin lightgrey;
+    }
+    .appt-container{
+      width: 50vw;
+      height: 50vh;
+      position: absolute;
+      top: 0;
+      font-family: 'overpass', sans-serif;
+      color: white;
+      background-color: rgba(50, 50, 50, 0.8);
+      .portfolio-title{
+        display: block;
+        font-size: 2.5em;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        line-height: 1.2em;
+        margin: 2% 0 5% 0;
+      }
+      .portfolio-links{
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 19%;
+        // border: solid thin black;
+        a{
+          font-weight: 300;
+          text-decoration: none;
+          color: white;
+        }
+        .portfolio-link{
+          text-align: center;
+          width: 49%;
+          font-weight: bold;
+          display: inline-block;
+          span{
+            font-weight: 500;
+          }
+          .fa-mobile{
+            font-size: 2.8em;
+            display: block;
+          }
+          .fa-github{
+            font-size: 2.8em;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+  .mem-body{
+    width: 49.5vw;
+    height: 50vh;
+    display: inline-block;
+  .memory{
+    position: absolute;
+    top: 100vh;
+    right: 0;
+    width: 50vw;
+    height: 50vh;
+    .mem-img{
+      width: 78.5%;
+      margin: 0 0 0 6vw;
+    }
+    .mem-container{
+      width: 50vw;
+      height: 50vh;
+      position: absolute;
+      top: 0;
+      font-family: 'overpass', sans-serif;
+      color: white;
+      background-color: rgba(50, 50, 50, 0.8);
+      .portfolio-title{
+        display: block;
+        font-size: 2.5em;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        line-height: 1.2em;
+        margin: 2% 0 5% 0;
+      }
+      .portfolio-links{
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 19%;
+        // border: solid thin black;
+        a{
+          font-weight: 300;
+          text-decoration: none;
+          color: white;
+        }
+        .portfolio-link{
+          text-align: center;
+          width: 49%;
+          font-weight: bold;
+          display: inline-block;
+          span{
+            font-weight: 500;
+          }
+          .fa-desktop{
+            font-size: 2.8em;
+            display: block;
+          }
+          .fa-github{
+            font-size: 2.8em;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+.contact-about{
+  height: 100vh;
+  width: 100vw;
+  background: url('../img/grass-blue-background.jpg') fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'overpass', sans-serif;
+
+  .contact-img{
+    .byron-img{
+      height: 15%;
+      width: 15%;
+      border-radius: 10em;
+      margin: 5% 0 0 42.5%
+    }
+  }
+  .about-txt{
+    display: block;
+    width: 100vw;
+    margin: 1% 0 3% 0;
+    text-align: center;
+    font-size: 3em;
+    color: dodgerblue;
+  }
+  .about-desc{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0 10%;
+    font-size: 2em;
+
+  }
+  .about-links{
+    margin: 15% 0 0 0;
+    display: block;
+    width: 100vw;
+    .about-link{
+      display: inline-block;
+      text-align: center;
+      width: 32vw
+    }
+  }
+}
