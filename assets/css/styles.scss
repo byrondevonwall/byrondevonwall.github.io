@@ -319,10 +319,13 @@ border-top: solid thin lightgrey;
     margin: 15% 0 0 0;
     display: block;
     width: 100vw;
+
     .about-link{
       display: inline-block;
       text-align: center;
-      width: 32vw
+      width: 24.5vw;
+      text-decoration: none;
+      color: black;
     }
   }
 }

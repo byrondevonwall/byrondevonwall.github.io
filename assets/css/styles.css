@@ -259,6 +259,8 @@ header {
     .contact-about .about-links .about-link {
       display: inline-block;
       text-align: center;
-      width: 32vw; }
+      width: 24.5vw;
+      text-decoration: none;
+      color: black; }
 
 /*# sourceMappingURL=styles.css.map */
