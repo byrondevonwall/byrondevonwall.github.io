@@ -1,13 +1,12 @@
 $break-small: 300px;
-$break-med: 400px;
 $break-large: 1024px;
 
 @mixin respond-to($media) {
   @if $media == handhelds {
-    @media only screen and (min-width: $break-small) and (max-width: $break-med) { @content; }
+    @media only screen and (min-width: $break-small) { @content; }
   }
   @else if $media == medium-screens {
-    @media only screen and (min-width: $break-med + 1) and (max-width: $break-large - 1) { @content; }
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
   }
   @else if $media == wide-screens {
     @media only screen and (min-width: $break-large) { @content; }
@@ -37,9 +36,6 @@ header{
       @include respond-to(medium-screens) {
         padding: 25% 0 0 0;
       }
-      @include respond-to(handhelds) {
-        padding: 105% 0 0 0;
-      }
     }
     .my-title{
       width: 100%;
@@ -68,6 +64,11 @@ header{
       }
       @include respond-to(medium-screens) {
           padding: 28% 0 0 0;
+      }
+      .break-me{
+        @include respond-to(medium-screens) {
+          display: block;
+        }
       }
     }
   .bottom-nav{
@@ -435,7 +436,7 @@ height: 50vh;
     display: block;
     width: 100vw;
     @include respond-to(medium-screens) {
-      margin: 25% 0 0 0;
+      display: none;
     }
     .about-link{
       display: inline-block;
@@ -443,7 +444,25 @@ height: 50vh;
       width: 24.5vw;
       text-decoration: none;
       color: black;
+      font-size: 1.2em;
 
+    }
+  }
+  .about-mobile-links{
+    display: none;
+    @include respond-to(medium-screens) {
+
+      margin: 25% 0 0 0;
+      display: block;
+      width: 100vw;
+    }
+    .about-link{
+      display: inline-block;
+      text-align: center;
+      width: 24.5vw;
+      text-decoration: none;
+      color: black;
+      font-size: 8em;
     }
   }
 }
