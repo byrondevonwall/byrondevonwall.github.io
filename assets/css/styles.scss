@@ -1,3 +1,19 @@
+$break-small: 300px;
+$break-med: 400px;
+$break-large: 1024px;
+
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (min-width: $break-small) and (max-width: $break-med) { @content; }
+  }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: $break-med + 1) and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == wide-screens {
+    @media only screen and (min-width: $break-large) { @content; }
+  }
+}
+
 *{
   box-sizing: border-box;
 }
@@ -18,6 +34,12 @@ header{
       padding: 8% 0 0 0;
       display: block;
       color: white;
+      @include respond-to(medium-screens) {
+        padding: 25% 0 0 0;
+      }
+      @include respond-to(handhelds) {
+        padding: 105% 0 0 0;
+      }
     }
     .my-title{
       width: 100%;
@@ -44,6 +66,9 @@ header{
         text-decoration: none;
         color: darken(white, 10%);
       }
+      @include respond-to(medium-screens) {
+          padding: 28% 0 0 0;
+      }
     }
   .bottom-nav{
     margin: 12% 0 0 0;
@@ -62,13 +87,15 @@ header{
         color: black;
       }
     }
-
+    @include respond-to(medium-screens) {
+        padding: 15% 0 0 0;
+        font-size: 2.5em;
+    }
   }
 }
 
 .showcase-body{
 height: 50vh;
-border-top: solid thin lightgrey;
 .showcase-container{
   height: 50vh;
   width: 100vw;
@@ -76,6 +103,16 @@ border-top: solid thin lightgrey;
   img{
     width: 15.5%;
     margin: 0 0 0 3%;
+    @include respond-to(medium-screens) {
+        width: 23%;
+        margin: 12% 0 0 1.3%;
+    }
+
+  }
+  .landing{
+    @include respond-to(medium-screens) {
+        display: none;
+    }
   }
 }
 
@@ -97,6 +134,11 @@ border-top: solid thin lightgrey;
       width: 70%;
       display: block;
       margin: 0 0 0 15%;
+      @include respond-to(medium-screens) {
+        width: 100%;
+        margin: 10% 0 0 25%;
+      }
+
     }
     .portfolio-title{
       display: block;
@@ -105,12 +147,20 @@ border-top: solid thin lightgrey;
       width: 100%;
       text-align: center;
       line-height: 1.2  em;
+      @include respond-to(medium-screens) {
+        padding: 20%;
+      }
     }
   }
     .showcase-desc{
       display: inline-block;
       width: 79vw;
       font-size: 1.5em;
+        @include respond-to(medium-screens) {
+            width: 65vw;
+            float: right;
+            padding: 5% 2%;
+        }
     }
 
   .showcase-links{
@@ -130,16 +180,25 @@ border-top: solid thin lightgrey;
       width: 49%;
       font-weight: bold;
       display: inline-block;
+      @include respond-to(medium-screens) {
+        font-size: 1.7em;
+      }
       span{
         font-weight: 500;
       }
       .fa-mobile{
         font-size: 2.8em;
         display: block;
+        @include respond-to(medium-screens) {
+          font-size: 2.5em;
+        }
       }
       .fa-github{
         font-size: 2.8em;
         display: block;
+        @include respond-to(medium-screens) {
+          font-size: 2.5em;
+        }
       }
     }
   }
@@ -161,8 +220,12 @@ border-top: solid thin lightgrey;
     // border: solid thin black;
     .appt-img{
       width: 31%;
-      margin: 0 0 0 15vw;
+      margin: .5% 0 0 15vw;
       border: solid thin lightgrey;
+      @include respond-to(medium-screens) {
+        width: 75%;
+        margin: 0 0 0 6.5vw;
+      }
     }
     .appt-container{
       width: 50vw;
@@ -181,6 +244,15 @@ border-top: solid thin lightgrey;
         text-align: center;
         line-height: 1.2em;
         margin: 2% 0 5% 0;
+        @include respond-to(medium-screens) {
+          margin: 5% 0  15% 0;
+        }
+      }
+      .portfolio-desc{
+        margin: 0 2%;
+        @include respond-to(medium-screens) {
+          font-size: 1.8em;
+        }
       }
       .portfolio-links{
         position: absolute;
@@ -199,16 +271,25 @@ border-top: solid thin lightgrey;
           width: 49%;
           font-weight: bold;
           display: inline-block;
+          @include respond-to(medium-screens) {
+            font-size: 2em;
+          }
           span{
             font-weight: 500;
           }
           .fa-mobile{
             font-size: 2.8em;
             display: block;
+            @include respond-to(medium-screens) {
+              font-size: 2.5em;
+            }
           }
           .fa-github{
             font-size: 2.8em;
             display: block;
+            @include respond-to(medium-screens) {
+              font-size: 2.5em;
+            }
           }
         }
       }
@@ -219,6 +300,7 @@ border-top: solid thin lightgrey;
     width: 49.5vw;
     height: 50vh;
     display: inline-block;
+    // border: solid thin black;
   .memory{
     position: absolute;
     top: 100vh;
@@ -227,7 +309,11 @@ border-top: solid thin lightgrey;
     height: 50vh;
     .mem-img{
       width: 78.5%;
-      margin: 0 0 0 6vw;
+      margin: .5% 0 0 6vw;
+      @include respond-to(medium-screens) {
+        width: 95%;
+        margin: 30% 0 0 1.5vw;
+      }
     }
     .mem-container{
       width: 50vw;
@@ -246,6 +332,14 @@ border-top: solid thin lightgrey;
         text-align: center;
         line-height: 1.2em;
         margin: 2% 0 5% 0;
+        @include respond-to(medium-screens) {
+          margin: 5% 0  15% 0;
+        }
+      }
+      .portfolio-desc{
+        @include respond-to(medium-screens) {
+          font-size: 1.8em;
+        }
       }
       .portfolio-links{
         position: absolute;
@@ -264,16 +358,25 @@ border-top: solid thin lightgrey;
           width: 49%;
           font-weight: bold;
           display: inline-block;
+          @include respond-to(medium-screens) {
+            font-size: 2em;
+          }
           span{
             font-weight: 500;
           }
           .fa-desktop{
             font-size: 2.8em;
             display: block;
+            @include respond-to(medium-screens) {
+              font-size: 2.5em;
+            }
           }
           .fa-github{
             font-size: 2.8em;
             display: block;
+            @include respond-to(medium-screens) {
+              font-size: 2.5em;
+            }
           }
         }
       }
@@ -296,7 +399,12 @@ border-top: solid thin lightgrey;
       height: 15%;
       width: 15%;
       border-radius: 10em;
-      margin: 5% 0 0 42.5%
+      margin: 5% 0 0 42.5%;
+      @include respond-to(medium-screens) {
+        width: 25%;
+        height: 25%;
+        margin: 15% 0 0 37.5%;
+      }
     }
   }
   .about-txt{
@@ -306,6 +414,10 @@ border-top: solid thin lightgrey;
     text-align: center;
     font-size: 3em;
     color: dodgerblue;
+    @include respond-to(medium-screens) {
+      font-size: 5em;
+      margin: 1% 0 10% 0;
+    }
   }
   .about-desc{
     display: block;
@@ -313,19 +425,25 @@ border-top: solid thin lightgrey;
     text-align: center;
     padding: 0 10%;
     font-size: 2em;
-
+    @include respond-to(medium-screens) {
+      padding: 0 2%;
+      font-size: 3em;
+    }
   }
   .about-links{
     margin: 15% 0 0 0;
     display: block;
     width: 100vw;
-
+    @include respond-to(medium-screens) {
+      margin: 25% 0 0 0;
+    }
     .about-link{
       display: inline-block;
       text-align: center;
       width: 24.5vw;
       text-decoration: none;
       color: black;
+
     }
   }
 }
