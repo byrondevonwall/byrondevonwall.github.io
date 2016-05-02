@@ -1,21 +1,21 @@
 $(function(){
 
   $('.showcase-container').parent().mouseenter(function(){
-    $('.portfolio-showcase').show();
+    $('.portfolio-showcase').fadeIn();
   }).mouseleave(function(){
-      $('.portfolio-showcase').hide();
+      $('.portfolio-showcase').fadeOut();
   });
 
   $('.appointments').parent().mouseenter(function(){
-    $('.appt-container').show();
+    $('.appt-container').fadeIn();
   }).mouseleave(function(){
-    $('.appt-container').hide();
+    $('.appt-container').fadeOut();
   });
 
   $('.memory').parent().mouseenter(function(){
-    $('.mem-container').show();
+    $('.mem-container').fadeIn();
   }).mouseleave(function(){
-    $('.mem-container').hide();
+    $('.mem-container').fadeOut();
   });
 
 });

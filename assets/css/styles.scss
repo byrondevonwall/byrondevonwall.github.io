@@ -90,7 +90,8 @@ header{
     }
     @include respond-to(medium-screens) {
         padding: 15% 0 0 0;
-        font-size: 2.5em;
+        font-size: 3em;
+        font-weight: bold;
     }
   }
 }
@@ -118,7 +119,7 @@ height: 50vh;
 }
 
 .portfolio-showcase{
-  height: 50vh;
+  height: 50.5vh;
   width: 100vw;
   display: block;
   font-family: 'overpass', sans-serif;

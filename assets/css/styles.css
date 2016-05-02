@@ -67,7 +67,8 @@ header {
     @media only screen and (min-width: 301px) and (max-width: 1023px) {
       header .bottom-nav {
         padding: 15% 0 0 0;
-        font-size: 2.5em; } }
+        font-size: 3em;
+        font-weight: bold; } }
 
 .showcase-body {
   height: 50vh; }
@@ -86,7 +87,7 @@ header {
       .showcase-body .showcase-container .landing {
         display: none; } }
   .showcase-body .portfolio-showcase {
-    height: 50vh;
+    height: 50.5vh;
     width: 100vw;
     display: block;
     font-family: 'overpass', sans-serif;
