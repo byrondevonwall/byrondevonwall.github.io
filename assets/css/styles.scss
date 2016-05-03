@@ -25,7 +25,7 @@ header{
     width: 100vw;
     @include respond-to(medium-screens) {
       background: url('../img/sea.jpeg');
-      height: 100%;
+      
     }
     .my-name{
       width: 100%;
