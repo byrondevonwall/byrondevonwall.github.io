@@ -412,7 +412,7 @@ height: 50vh;
       @include respond-to(medium-screens) {
         width: 25%;
         height: 25%;
-        margin: 15% 0 0 37.5%;
+        margin: 21% 0 0 37.5%;
       }
     }
   }
@@ -426,6 +426,7 @@ height: 50vh;
     @include respond-to(medium-screens) {
       font-size: 5em;
       margin: 1% 0 10% 0;
+      color: lighten(dodgerblue, 15%);
     }
   }
   .about-desc{
@@ -460,7 +461,7 @@ height: 50vh;
     display: none;
     @include respond-to(medium-screens) {
 
-      margin: 25% 0 0 0;
+      margin: 27% 0 0 0;
       display: block;
       width: 100vw;
     }
