@@ -10,7 +10,7 @@ header {
   @media only screen and (min-width: 301px) and (max-width: 1399px) {
     header {
       background: url("../img/sea.jpeg");
-      width: 120vw; } }
+      background-size: cover; } }
   header .my-name {
     width: 100%;
     text-align: center;
