@@ -7,6 +7,9 @@ header {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw; }
+  @media only screen and (min-width: 301px) and (max-width: 1399px) {
+    header {
+      background: url("../img/sea.jpeg"); } }
   header .my-name {
     width: 100%;
     text-align: center;
@@ -315,6 +318,9 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'overpass', sans-serif; }
+  @media only screen and (min-width: 301px) and (max-width: 1399px) {
+    .contact-about {
+      background: url("../img/grass-blue-background.jpg"); } }
   .contact-about .contact-img .byron-img {
     height: 15%;
     width: 15%;
