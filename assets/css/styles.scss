@@ -401,7 +401,7 @@ height: 50vh;
   font-family: 'overpass', sans-serif;
   @include respond-to(medium-screens) {
     background: url('../img/grass-blue-background.jpg');
-    height: 100%;
+    background-size: cover;
   }
   .contact-img{
     .byron-img{

@@ -322,7 +322,7 @@ header {
   @media only screen and (min-width: 301px) and (max-width: 1399px) {
     .contact-about {
       background: url("../img/grass-blue-background.jpg");
-      height: 100%; } }
+      background-size: cover; } }
   .contact-about .contact-img .byron-img {
     height: 15%;
     width: 15%;
