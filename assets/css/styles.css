@@ -9,7 +9,8 @@ header {
   width: 100vw; }
   @media only screen and (min-width: 301px) and (max-width: 1399px) {
     header {
-      background: url("../img/sea.jpeg"); } }
+      background: url("../img/sea.jpeg");
+      height: 100%; } }
   header .my-name {
     width: 100%;
     text-align: center;
@@ -320,7 +321,8 @@ header {
   font-family: 'overpass', sans-serif; }
   @media only screen and (min-width: 301px) and (max-width: 1399px) {
     .contact-about {
-      background: url("../img/grass-blue-background.jpg"); } }
+      background: url("../img/grass-blue-background.jpg");
+      height: 100%; } }
   .contact-about .contact-img .byron-img {
     height: 15%;
     width: 15%;

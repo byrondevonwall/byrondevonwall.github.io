@@ -25,6 +25,7 @@ header{
     width: 100vw;
     @include respond-to(medium-screens) {
       background: url('../img/sea.jpeg');
+      height: 100%;
     }
     .my-name{
       width: 100%;
@@ -399,7 +400,8 @@ height: 50vh;
   background-repeat: no-repeat;
   font-family: 'overpass', sans-serif;
   @include respond-to(medium-screens) {
-    background: url('../img/grass-blue-background.jpg')
+    background: url('../img/grass-blue-background.jpg');
+    height: 100%;
   }
   .contact-img{
     .byron-img{
