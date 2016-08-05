@@ -445,6 +445,8 @@ height: 50vh;
     margin: 15% 0 0 0;
     display: block;
     width: 100vw;
+    position: absolute;
+    bottom: 10px;
     @include respond-to(medium-screens) {
       display: none;
     }
