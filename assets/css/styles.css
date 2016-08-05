@@ -359,9 +359,7 @@ header {
   .contact-about .about-links {
     margin: 15% 0 0 0;
     display: block;
-    width: 100vw;
-    position: absolute;
-    bottom: 10px; }
+    width: 100vw; }
     @media only screen and (min-width: 301px) and (max-width: 1023px) {
       .contact-about .about-links {
         display: none; } }
