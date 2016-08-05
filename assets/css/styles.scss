@@ -108,7 +108,7 @@ height: 50vh;
   display: inline-block;
   img{
     width: 13.5%;
-    margin: 0 0 0 3%;
+    margin: 0 0 0 2%;
     @include respond-to(medium-screens) {
         width: 23%;
         margin: 12% 0 0 1.3%;
