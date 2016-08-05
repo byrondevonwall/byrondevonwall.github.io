@@ -15,6 +15,7 @@ $break-large: 1024px;
 
 *{
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 header{
@@ -59,7 +60,7 @@ header{
       font-weight: 300;
       font-style: italic;
       font-size: 4em;
-      padding: 9% 0 0 0;
+      padding: 8% 0 0 0;
       display: block;
       color: darken(white, 10%);
       a{
